@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 result = metervalue * multiplier;
-
                 mResultTextView.setText(String.format("%.2f",result) + " Inches");
             }
         });
